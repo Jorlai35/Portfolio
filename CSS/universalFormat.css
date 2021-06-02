@@ -1,0 +1,45 @@
+header{
+	background-color: purple;
+	padding: 10px
+}
+
+header p{
+	font-size: 20px;
+}
+
+.title{
+	margin: 0;
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	padding: 20px 16px;
+	padding-right: 100px;
+	color: inherit;
+	text-decoration: none;
+}
+
+.NavBar{
+	list-style-type: none;
+	padding: 0;
+	padding-left: 10px;
+	top: 0;
+	overflow: hidden;
+	margin: -10px;
+	background-color: rgb(200,200,200)
+}
+.NavBar a{
+	margin: 0;
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	padding: 20px 16px;
+	color: inherit;
+	text-decoration: none;
+}
+.NavBar a:hover{
+	background-color: rgb(150,150,150);
+}
+.NavBar li{
+	float: left;
+	margin: 0;
+}
